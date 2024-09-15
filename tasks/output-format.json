@@ -1,0 +1,36 @@
+{
+    "tasks": [
+      {
+        "id": "output-format-1a",
+        "task_version": "1.0.0",
+        "description": "Generate a single word.",
+        "prompt": "Generate a single word and nothing else.",
+        "solution": "\\w+",
+        "match_type": "regex-match"
+      },
+      {
+        "id": "output-format-1b",
+        "task_version": "1.0.0",
+        "description": "Generate a single word. An example is provided.",
+        "prompt": "Generate a single word (e.g., cat) and nothing else.",
+        "solution": "\\w+",
+        "match_type": "regex-match"
+      },
+      {
+        "id": "output-format-2",
+        "task_version": "1.0.0",
+        "description": "Embed a string in an HTML tag.",
+        "prompt": "Embed the string 'Hello World' in an HTML <strong> tag. Return only the HTML element without any other text or boilerplate.",
+        "solution": "<strong>Hello World</strong>",
+        "match_type": "exact-match"
+      },
+      {
+        "id": "output-format-3",
+        "task_version": "1.0.0",
+        "description": "Force lowercase output.",
+        "prompt": "Tell a short joke. Keep the whole output lowercase.",
+        "solution": "[a-z\\d\\W]*",
+        "match_type": "regex-match"
+      }
+    ]
+}

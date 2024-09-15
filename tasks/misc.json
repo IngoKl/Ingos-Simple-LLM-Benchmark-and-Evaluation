@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "misc-1",
+      "task_version": "1.0.0",
+      "description": "A simple task that asks for a single given word.",
+      "prompt": "Return just the word 'LLM'",
+      "solution": "LLM",
+      "match_type": "exact-match"
+    },
+    {
+      "id": "misc-2",
+      "task_version": "1.0.0",
+      "description": "List animals and include a given one.",
+      "prompt": "Liste ten animals, one of which needs to be cat.",
+      "solution": "cat",
+      "match_type": "partial-match"
+    },
+    {
+      "id": "misc-3",
+      "task_version": "1.0.0",
+      "description": "A simple task that asks for a single name with a specific starting letter.",
+      "prompt": "Come up with a name that starts with the letter J. Just return the name and no other text.",
+      "solution": "J.*?",
+      "match_type": "regex-match"
+    },
+    {
+      "id": "misc-4",
+      "task_version": "1.0.0",
+      "description": "Counting letters in a string.",
+      "prompt": "How many es (letter e) are in the following text: 'The bear ate the pie.' Only return the number.",
+      "solution": "5",
+      "match_type": "partial-match"
+    }
+  ]
+}

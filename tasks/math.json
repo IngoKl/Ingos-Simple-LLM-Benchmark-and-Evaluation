@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "math-1a",
+      "task_version": "1.0.0",
+      "description": "A relatively simple division task. The challenges included: Converting from kilograms to grams, division, and rounding to the nearest whole number. Also, the task includes outputting only one number.",
+      "prompt": "You have 1kg of flour. For one cake, you need 230g of flour. How many cakes can you make? Provide just the number of cakes as a single numeral and nothing else.",
+      "solution": "4",
+      "match_type": "exact-match"
+    },
+    {
+      "id": "math-1b",
+      "task_version": "1.0.0",
+      "description": "A relatively simple division task. The challenges included: Converting from kilograms to grams, division, and rounding to the nearest whole number. Also, the task includes outputting only one number. In variant b, the output format is definted even more clearly.",
+      "prompt": "You have 1kg of flour. For one cake, you need 230g of flour. How many cakes can you make? Provide just the number of cakes as a single numeral and nothing else. No text, just a single number.",
+      "solution": "4",
+      "match_type": "exact-match"
+    },
+    {
+      "id": "math-2",
+      "task_version": "1.0.0",
+      "description": "A simple addition task.",
+      "prompt": "What is 10 + 13?",
+      "solution": "23",
+      "match_type": "partial-match"
+    }
+  ]
+}

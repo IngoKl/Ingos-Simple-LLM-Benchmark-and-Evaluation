@@ -1,0 +1,20 @@
+{
+    "tasks": [
+      {
+        "id": "knowledge-single-choice-1a",
+        "task_version": "1.0.0",
+        "description": "44th US President",
+        "prompt": "Who was the 44th President of the United States of America? Possible Answers: A) Joe Biden B) Richard Nixon C) Barack Obama D) Donald Trump",
+        "solution": "Barack Obama",
+        "match_type": "partial-match"
+      },
+      {
+        "id": "knowledge-single-choice-1b",
+        "task_version": "1.0.0",
+        "description": "45thUS President",
+        "prompt": "Who was the 45th President of the United States of America? Possible Answers: A) Joe Biden B) Richard Nixon C) Barack Obama D) Donald Trump",
+        "solution": "Donald Trump",
+        "match_type": "partial-match"
+      }
+    ]
+}

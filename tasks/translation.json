@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "translation-1",
+      "task_version": "1.0.0",
+      "description": "Translating a string from English to German.",
+      "prompt": "Translate 'Tower' from English to German.",
+      "solution": "Turm",
+      "match_type": "partial-match"
+    }
+  ]
+}

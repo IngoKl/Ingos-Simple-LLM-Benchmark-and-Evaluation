@@ -1,0 +1,20 @@
+{
+    "tasks": [
+      {
+        "id": "context-1",
+        "task_version": "1.0.0",
+        "description": "Extracting facts from a paragraph from a story.",
+        "prompt": "In the following story, what type of ice cream did Elliott choose? Story: Elliott strolled down the sunny street, eyes scanning the colorful signs of the ice cream parlor ahead. The summer heat pressed gently against their skin, and the thought of a cool, sweet treat brought a smile. Stepping into the shop, they were greeted by the rich scent of waffle cones and the chatter of families enjoying their desserts. After careful deliberation, Elliott chose a scoop of creamy pistachio in a freshly made cone. As they left the shop, the first taste of the ice cream melted in their mouth, and for a moment, everything felt perfect under the bright afternoon sun.",
+        "solution": "pistachio",
+        "match_type": "partial-match"
+      },
+      {
+        "id": "context-1b",
+        "task_version": "1.0.0",
+        "description": "Extracting facts from a paragraph from a story. Only return the answer, no other text.",
+        "prompt": "In the following story, what type of ice cream did Elliott choose? Only return the type of ice cream (e.g., vanilla) and not other text. Story: Elliott strolled down the sunny street, eyes scanning the colorful signs of the ice cream parlor ahead. The summer heat pressed gently against their skin, and the thought of a cool, sweet treat brought a smile. Stepping into the shop, they were greeted by the rich scent of waffle cones and the chatter of families enjoying their desserts. After careful deliberation, Elliott chose a scoop of creamy pistachio in a freshly made cone. As they left the shop, the first taste of the ice cream melted in their mouth, and for a moment, everything felt perfect under the bright afternoon sun.",
+        "solution": "pistachio",
+        "match_type": "exact-match-ci"
+      }
+    ]
+}
